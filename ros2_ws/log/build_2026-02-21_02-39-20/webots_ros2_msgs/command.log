@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/webots_ros2/webots_ros2_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/webots_ros2_msgs

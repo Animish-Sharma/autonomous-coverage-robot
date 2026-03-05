@@ -1,0 +1,37 @@
+[0.479s] Invoking command in '/root/ros2_ws/src/coverage_webots': PYTHONPATH=/root/ros2_ws/build/coverage_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_webots build --build-base /root/ros2_ws/build/coverage_webots/build install --record /root/ros2_ws/build/coverage_webots/install.log --single-version-externally-managed install_data
+[0.664s] running egg_info
+[0.665s] creating ../../build/coverage_webots/coverage_webots.egg-info
+[0.665s] writing ../../build/coverage_webots/coverage_webots.egg-info/PKG-INFO
+[0.665s] writing dependency_links to ../../build/coverage_webots/coverage_webots.egg-info/dependency_links.txt
+[0.665s] writing entry points to ../../build/coverage_webots/coverage_webots.egg-info/entry_points.txt
+[0.665s] writing requirements to ../../build/coverage_webots/coverage_webots.egg-info/requires.txt
+[0.666s] writing top-level names to ../../build/coverage_webots/coverage_webots.egg-info/top_level.txt
+[0.666s] writing manifest file '../../build/coverage_webots/coverage_webots.egg-info/SOURCES.txt'
+[0.667s] reading manifest file '../../build/coverage_webots/coverage_webots.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/coverage_webots/coverage_webots.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] creating /root/ros2_ws/build/coverage_webots/build
+[0.667s] creating /root/ros2_ws/build/coverage_webots/build/lib
+[0.667s] creating /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots
+[0.667s] copying coverage_webots/__init__.py -> /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots
+[0.667s] running install
+[0.668s] running install_lib
+[0.668s] creating /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots
+[0.668s] copying /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots/__init__.py -> /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots
+[0.669s] byte-compiling /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots/__init__.py to __init__.cpython-310.pyc
+[0.669s] running install_data
+[0.669s] creating /root/ros2_ws/install/coverage_webots/share/ament_index
+[0.669s] creating /root/ros2_ws/install/coverage_webots/share/ament_index/resource_index
+[0.669s] creating /root/ros2_ws/install/coverage_webots/share/ament_index/resource_index/packages
+[0.669s] copying resource/coverage_webots -> /root/ros2_ws/install/coverage_webots/share/ament_index/resource_index/packages
+[0.669s] copying package.xml -> /root/ros2_ws/install/coverage_webots/share/coverage_webots
+[0.669s] creating /root/ros2_ws/install/coverage_webots/share/coverage_webots/launch
+[0.669s] copying launch/project_launch.py -> /root/ros2_ws/install/coverage_webots/share/coverage_webots/launch
+[0.669s] creating /root/ros2_ws/install/coverage_webots/share/coverage_webots/worlds
+[0.669s] copying worlds/project_world.wbt -> /root/ros2_ws/install/coverage_webots/share/coverage_webots/worlds
+[0.669s] running install_egg_info
+[0.671s] Copying ../../build/coverage_webots/coverage_webots.egg-info to /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots-0.0.0-py3.10.egg-info
+[0.672s] running install_scripts
+[0.688s] writing list of installed files to '/root/ros2_ws/build/coverage_webots/install.log'
+[0.707s] Invoked command in '/root/ros2_ws/src/coverage_webots' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_webots build --build-base /root/ros2_ws/build/coverage_webots/build install --record /root/ros2_ws/build/coverage_webots/install.log --single-version-externally-managed install_data

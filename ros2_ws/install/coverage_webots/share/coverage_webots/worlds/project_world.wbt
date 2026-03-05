@@ -1,0 +1,100 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+  basicTimeStep 64
+}
+Viewpoint {
+  orientation -0.31257691038749286 -0.18774975323566082 0.9311528903743775 4.161500571213428
+  position 0.10773674173047187 4.691990049323224 3.4885181056032875
+  follow "TurtleBot3Burger"
+  followType "Pan and Tilt Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  radius 3
+  wallHeight 0.4
+}
+WoodenBox {
+}
+WoodenBox {
+  translation 1.26618 1.07342 0.15
+  name "wooden box(1)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation -1.62271 1.08968 0.15
+  name "wooden box(3)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.09887 -0.301011 0.15
+  name "wooden box(4)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  name "wooden box(5)"
+}
+WoodenBox {
+  translation -0.9 -1.9 0.3
+  name "wooden box(6)"
+  size 0.4 0.4 0.4
+}
+WoodenBox {
+  translation -2.71307 -0.22263 0.15
+  name "wooden box(7)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -0.744103 2.69736 0.15
+  name "wooden box(8)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 2.6 0.203241 0.15
+  name "wooden box(9)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 2 -2 0.2
+  name "wooden box(10)"
+  size 0.3 0.3 0.3
+}
+TurtleBot3Burger {
+  hidden position_0_0 2481.608842600387
+  hidden position_0_1 2692.350142629518
+  hidden position_0_2 -7743.586306575292
+  hidden position2_0_2 43.56743975690126
+  hidden position3_0_2 -563.7858218976567
+  hidden linearVelocity_0 -0.028149602910437284 0.013167582375998228 -3.069322579256696e-05
+  hidden angularVelocity_0 0.0020906063717709656 -0.001000537524327671 -0.9339014623338546
+  hidden position_1_0 35.635200000000005
+  hidden position_1_1 35.635200000000005
+  hidden rotation_2 -0.38938278980512775 -0.6512979067700122 -0.6513002991252009 2.39895466611625
+  hidden translation_3 -0.06777513601486482 -0.009999999999999915 0.04051966746573966
+  hidden rotation_3 -0.38938278980512775 -0.6512979067700122 -0.6513002991252009 2.39895466611625
+  hidden rotation_8 0 1 0 4.463035571630041
+  hidden linearVelocity_8 -0.03199845774544148 -0.06794190511313704 5.1507046545137475e-05
+  hidden angularVelocity_8 2.2645620526775803 -1.0654133985542378 -0.9470927231447255
+  hidden rotation_9 -0.7052542724661577 2.3267869175776267e-06 0.708954449286283 3.141592665778701
+  hidden linearVelocity_9 0.03193255066125521 0.06746868569907097 3.994033694565286e-05
+  hidden angularVelocity_9 -2.260377463441419 1.0634196882068854 -0.9470774574501635
+  hidden rotation_10 0.6637730224288836 -0.688175929542447 -0.29294925276234085 3.1209610192224404
+  hidden linearVelocity_10 -0.0683377867340044 0.03208435794065764 -0.00013915434577101875
+  hidden angularVelocity_10 -8.021089466864066 -17.084446691214097 4.935462516197037e-14
+  translation -2.0582264911112387 0.6215466059663572 -0.0004999235638177418
+  rotation 0.004449883873013883 -0.007357707512018518 0.9999630306534758 1.0880785678616671
+  controller "webots_ros2_driver"
+  supervisor FALSE
+}

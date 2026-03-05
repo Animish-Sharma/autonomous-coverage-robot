@@ -1,0 +1,61 @@
+[0.458s] Invoking command in '/root/ros2_ws/src/webots_ros2/webots_ros2_importer': PYTHONPATH=/root/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /root/ros2_ws/build/webots_ros2_importer/build install --record /root/ros2_ws/build/webots_ros2_importer/install.log --single-version-externally-managed install_data
+[0.635s] running egg_info
+[0.635s] writing ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/PKG-INFO
+[0.635s] writing dependency_links to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/dependency_links.txt
+[0.636s] writing entry points to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/entry_points.txt
+[0.636s] writing requirements to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/requires.txt
+[0.636s] writing top-level names to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/top_level.txt
+[0.637s] reading manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.638s] writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.638s] running build
+[0.638s] running build_py
+[0.638s] creating /root/ros2_ws/build/webots_ros2_importer/build
+[0.638s] creating /root/ros2_ws/build/webots_ros2_importer/build/lib
+[0.638s] creating /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.638s] copying webots_ros2_importer/urdf2proto.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.638s] copying webots_ros2_importer/xacro2proto.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.638s] copying webots_ros2_importer/__init__.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.638s] creating /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots
+[0.638s] creating /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.638s] copying webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.639s] copying webots_ros2_importer/urdf2webots/urdf2webots/importer.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.639s] copying webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.639s] copying webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.639s] copying webots_ros2_importer/urdf2webots/urdf2webots/__init__.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.639s] copying webots_ros2_importer/urdf2webots/urdf2webots/writeRobot.py -> /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.639s] running install
+[0.640s] running install_lib
+[0.640s] creating /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.640s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2proto.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.640s] creating /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots
+[0.640s] creating /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.640s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.640s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/importer.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.641s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.641s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.641s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/__init__.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.641s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/writeRobot.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.641s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/xacro2proto.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.641s] copying /root/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/__init__.py -> /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.642s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2proto.py to urdf2proto.cpython-310.pyc
+[0.642s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py to parserURDF.cpython-310.pyc
+[0.648s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/importer.py to importer.cpython-310.pyc
+[0.649s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py to gazebo_materials.cpython-310.pyc
+[0.649s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py to math_utils.cpython-310.pyc
+[0.650s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/__init__.py to __init__.cpython-310.pyc
+[0.650s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/writeRobot.py to writeRobot.cpython-310.pyc
+[0.654s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/xacro2proto.py to xacro2proto.cpython-310.pyc
+[0.654s] byte-compiling /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/__init__.py to __init__.cpython-310.pyc
+[0.654s] running install_data
+[0.654s] creating /root/ros2_ws/install/webots_ros2_importer/share/ament_index
+[0.654s] creating /root/ros2_ws/install/webots_ros2_importer/share/ament_index/resource_index
+[0.654s] creating /root/ros2_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[0.654s] copying resource/webots_ros2_importer -> /root/ros2_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[0.655s] copying package.xml -> /root/ros2_ws/install/webots_ros2_importer/share/webots_ros2_importer
+[0.655s] running install_egg_info
+[0.656s] Copying ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info to /root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer-2025.0.1-py3.10.egg-info
+[0.657s] running install_scripts
+[0.672s] Installing urdf2proto script to /root/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.672s] Installing xacro2proto script to /root/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.672s] writing list of installed files to '/root/ros2_ws/build/webots_ros2_importer/install.log'
+[0.692s] Invoked command in '/root/ros2_ws/src/webots_ros2/webots_ros2_importer' returned '0': PYTHONPATH=/root/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /root/ros2_ws/build/webots_ros2_importer/build install --record /root/ros2_ws/build/webots_ros2_importer/install.log --single-version-externally-managed install_data

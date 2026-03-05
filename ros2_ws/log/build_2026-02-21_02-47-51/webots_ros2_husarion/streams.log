@@ -1,0 +1,48 @@
+[1.341s] Invoking command in '/root/ros2_ws/src/webots_ros2/webots_ros2_husarion': AMENT_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs:/root/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/webots_ros2_control/lib:/root/ros2_ws/install/webots_ros2_driver/lib:/root/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/webots_ros2_husarion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/webots_ros2_husarion/lib/python3.10/site-packages:/root/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_husarion build --build-base /root/ros2_ws/build/webots_ros2_husarion/build install --record /root/ros2_ws/build/webots_ros2_husarion/install.log --single-version-externally-managed install_data
+[1.535s] running egg_info
+[1.536s] creating ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info
+[1.536s] writing ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/PKG-INFO
+[1.536s] writing dependency_links to ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/dependency_links.txt
+[1.536s] writing entry points to ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/entry_points.txt
+[1.536s] writing requirements to ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/requires.txt
+[1.536s] writing top-level names to ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/top_level.txt
+[1.536s] writing manifest file '../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/SOURCES.txt'
+[1.538s] reading manifest file '../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/SOURCES.txt'
+[1.538s] writing manifest file '../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info/SOURCES.txt'
+[1.538s] running build
+[1.538s] running build_py
+[1.539s] creating /root/ros2_ws/build/webots_ros2_husarion/build
+[1.539s] creating /root/ros2_ws/build/webots_ros2_husarion/build/lib
+[1.539s] creating /root/ros2_ws/build/webots_ros2_husarion/build/lib/webots_ros2_husarion
+[1.539s] copying webots_ros2_husarion/__init__.py -> /root/ros2_ws/build/webots_ros2_husarion/build/lib/webots_ros2_husarion
+[1.539s] running install
+[1.539s] running install_lib
+[1.540s] creating /root/ros2_ws/install/webots_ros2_husarion/lib/python3.10/site-packages/webots_ros2_husarion
+[1.540s] copying /root/ros2_ws/build/webots_ros2_husarion/build/lib/webots_ros2_husarion/__init__.py -> /root/ros2_ws/install/webots_ros2_husarion/lib/python3.10/site-packages/webots_ros2_husarion
+[1.540s] byte-compiling /root/ros2_ws/install/webots_ros2_husarion/lib/python3.10/site-packages/webots_ros2_husarion/__init__.py to __init__.cpython-310.pyc
+[1.541s] running install_data
+[1.541s] creating /root/ros2_ws/install/webots_ros2_husarion/share/ament_index
+[1.541s] creating /root/ros2_ws/install/webots_ros2_husarion/share/ament_index/resource_index
+[1.541s] creating /root/ros2_ws/install/webots_ros2_husarion/share/ament_index/resource_index/packages
+[1.541s] copying resource/webots_ros2_husarion -> /root/ros2_ws/install/webots_ros2_husarion/share/ament_index/resource_index/packages
+[1.541s] creating /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/launch
+[1.541s] copying launch/rosbot_launch.py -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/launch
+[1.541s] copying launch/rosbot_xl_launch.py -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/launch
+[1.542s] creating /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.542s] copying resource/rosbot_controllers.yaml -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.542s] copying resource/rosbot_xl_controllers.yaml -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.542s] copying resource/ekf.yaml -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.542s] copying resource/laser_filter.yaml -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.542s] copying resource/rosbot_webots.urdf -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.543s] copying resource/rosbot_links_remappings.yaml -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/resource
+[1.543s] creating /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/worlds
+[1.543s] copying worlds/rosbot.wbt -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/worlds
+[1.543s] copying worlds/rosbot_xl.wbt -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/worlds
+[1.543s] creating /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/worlds/meshes
+[1.543s] copying worlds/meshes/husarion_world.dae -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion/worlds/meshes
+[1.544s] copying package.xml -> /root/ros2_ws/install/webots_ros2_husarion/share/webots_ros2_husarion
+[1.544s] running install_egg_info
+[1.546s] Copying ../../../build/webots_ros2_husarion/webots_ros2_husarion.egg-info to /root/ros2_ws/install/webots_ros2_husarion/lib/python3.10/site-packages/webots_ros2_husarion-2025.0.1-py3.10.egg-info
+[1.547s] running install_scripts
+[1.566s] writing list of installed files to '/root/ros2_ws/build/webots_ros2_husarion/install.log'
+[1.614s] Invoked command in '/root/ros2_ws/src/webots_ros2/webots_ros2_husarion' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs:/root/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/webots_ros2_control/lib:/root/ros2_ws/install/webots_ros2_driver/lib:/root/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/webots_ros2_husarion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/webots_ros2_husarion/lib/python3.10/site-packages:/root/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_husarion build --build-base /root/ros2_ws/build/webots_ros2_husarion/build install --record /root/ros2_ws/build/webots_ros2_husarion/install.log --single-version-externally-managed install_data

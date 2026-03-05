@@ -1,0 +1,69 @@
+[1.350s] Invoking command in '/root/ros2_ws/src/webots_ros2/webots_ros2_epuck': AMENT_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs:/root/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/webots_ros2_control/lib:/root/ros2_ws/install/webots_ros2_driver/lib:/root/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/root/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /root/ros2_ws/build/webots_ros2_epuck/build install --record /root/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data
+[1.541s] running egg_info
+[1.542s] creating ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info
+[1.543s] writing ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[1.543s] writing dependency_links to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[1.543s] writing entry points to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[1.543s] writing requirements to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[1.543s] writing top-level names to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[1.543s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.544s] reading manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.545s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.546s] running build
+[1.546s] running build_py
+[1.546s] creating /root/ros2_ws/build/webots_ros2_epuck/build
+[1.546s] creating /root/ros2_ws/build/webots_ros2_epuck/build/lib
+[1.546s] creating /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.546s] copying webots_ros2_epuck/drive_calibrator.py -> /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.546s] copying webots_ros2_epuck/epuck_node.py -> /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.547s] copying webots_ros2_epuck/simple_mapper.py -> /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.547s] copying webots_ros2_epuck/__init__.py -> /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.547s] running install
+[1.547s] running install_lib
+[1.548s] creating /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.548s] copying /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/drive_calibrator.py -> /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.548s] copying /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/epuck_node.py -> /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.549s] copying /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/simple_mapper.py -> /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.549s] copying /root/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/__init__.py -> /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.550s] byte-compiling /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/drive_calibrator.py to drive_calibrator.cpython-310.pyc
+[1.551s] byte-compiling /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/epuck_node.py to epuck_node.cpython-310.pyc
+[1.552s] byte-compiling /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/simple_mapper.py to simple_mapper.cpython-310.pyc
+[1.553s] byte-compiling /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/__init__.py to __init__.cpython-310.pyc
+[1.553s] running install_data
+[1.553s] creating /root/ros2_ws/install/webots_ros2_epuck/share/ament_index
+[1.553s] creating /root/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index
+[1.553s] creating /root/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[1.553s] copying resource/webots_ros2_epuck -> /root/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[1.553s] creating /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.553s] copying launch/robot_launch.py -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.554s] copying launch/robot_tools_launch.py -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.554s] copying launch/rats_life_launch.py -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.554s] copying launch/rats_life_waypoints_launch.py -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.554s] creating /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.554s] copying worlds/epuck_world.wbt -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.554s] copying worlds/.epuck_world.wbproj -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.554s] copying worlds/rats_life_benchmark.wbt -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.555s] copying worlds/.rats_life_benchmark.wbproj -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.555s] creating /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.555s] copying protos/LegoTallInterval.proto -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.556s] copying protos/LegoTallWall.proto -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.556s] creating /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.556s] copying resource/all.rviz -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.556s] copying resource/nav2_params.yaml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.556s] copying resource/nav2_params_iron.yaml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.556s] copying resource/map_rats_life.pgm -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.556s] copying resource/map_rats_life.yaml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.556s] copying resource/nav2_rats_life_waypoints.yaml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.557s] copying resource/epuck_world_map.pgm -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.557s] copying resource/epuck_world_map.yaml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.557s] copying resource/epuck_webots.urdf -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.557s] copying resource/ros2_control.yml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.557s] copying package.xml -> /root/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck
+[1.557s] running install_egg_info
+[1.558s] Copying ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck-2025.0.1-py3.10.egg-info
+[1.558s] running install_scripts
+[1.573s] Installing drive_calibrator script to /root/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.573s] Installing epuck_node script to /root/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.573s] Installing simple_mapper script to /root/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.574s] writing list of installed files to '/root/ros2_ws/build/webots_ros2_epuck/install.log'
+[1.635s] Invoked command in '/root/ros2_ws/src/webots_ros2/webots_ros2_epuck' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs:/root/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/webots_ros2_control:/root/ros2_ws/install/webots_ros2_driver:/root/ros2_ws/install/webots_ros2_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/webots_ros2_control/lib:/root/ros2_ws/install/webots_ros2_driver/lib:/root/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/root/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /root/ros2_ws/build/webots_ros2_epuck/build install --record /root/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data
