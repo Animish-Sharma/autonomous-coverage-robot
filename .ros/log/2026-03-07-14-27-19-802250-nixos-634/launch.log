@@ -1,0 +1,6 @@
+1772873839.8037288 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-14-27-19-802250-nixos-634
+1772873839.8039532 [INFO] [launch]: Default logging verbosity is set to INFO
+1772873839.8776898 [INFO] [webots-1]: process started with pid [635]
+1772873839.8780160 [INFO] [driver-2]: process started with pid [637]
+1772873900.9176366 [ERROR] [driver-2]: process has died [pid 637, exit code 1, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args --params-file /tmp/launch_params_s849gcmd'].
+1772874027.5264757 [INFO] [webots-1]: process has finished cleanly [pid 635]

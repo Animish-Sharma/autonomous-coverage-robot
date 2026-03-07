@@ -1,0 +1,5 @@
+1772885406.4165564 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-17-40-06-414980-nixos-2350
+1772885406.4168026 [INFO] [launch]: Default logging verbosity is set to INFO
+1772885406.4210265 [INFO] [webots-1]: process started with pid [2351]
+1772885472.0296388 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772885472.2219441 [INFO] [webots-1]: process has finished cleanly [pid 2351]

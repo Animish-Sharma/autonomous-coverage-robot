@@ -98,3 +98,8 @@ fi
 #    . /etc/bash_completion
 #fi
 source /opt/ros/humble/setup.bash
+export PATH=$PATH:/usr/local/webots
+export WEBOTS_HOME=/root/.ros/webotsR2025a/webots
+export PATH=$WEBOTS_HOME:$PATH
+export USER=root
+export USERNAME=root

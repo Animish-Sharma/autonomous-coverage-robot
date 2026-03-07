@@ -1,0 +1,7 @@
+1772892344.3502533 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-19-35-44-349507-nixos-3071
+1772892344.3503797 [INFO] [launch]: Default logging verbosity is set to INFO
+1772892344.3840635 [INFO] [webots-1]: process started with pid [3072]
+1772892344.3842084 [INFO] [driver-2]: process started with pid [3074]
+1772892734.3772535 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772892734.4732373 [INFO] [webots-1]: process has finished cleanly [pid 3072]
+1772892734.4927957 [INFO] [driver-2]: process has finished cleanly [pid 3074]

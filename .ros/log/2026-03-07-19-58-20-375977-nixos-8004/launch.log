@@ -1,0 +1,18 @@
+1772893700.3766851 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-19-58-20-375977-nixos-8004
+1772893700.3767943 [INFO] [launch]: Default logging verbosity is set to INFO
+1772893700.4228268 [INFO] [webots-1]: process started with pid [8005]
+1772893700.4229629 [INFO] [ros2_supervisor.py-2]: process started with pid [8007]
+1772893700.4230406 [INFO] [robot_state_publisher-3]: process started with pid [8009]
+1772893700.4231026 [INFO] [static_transform_publisher-4]: process started with pid [8012]
+1772893700.4231648 [INFO] [webots_controller_TurtleBot3Burger-5]: process started with pid [8015]
+1772893704.4664750 [ERROR] [webots-1]: process has died [pid 8005, exit code 139, cmd '/root/.ros/webotsR2025a/webots/webots --port=1234 /tmp/tmpyps83bpe_world_with_URDF_robot.wbt --batch --mode=realtime'].
+1772893704.4684741 [INFO] [webots_controller_TurtleBot3Burger-5]: sending signal 'SIGINT' to process[webots_controller_TurtleBot3Burger-5]
+1772893704.4688683 [INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+1772893704.4692407 [INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+1772893704.4697495 [INFO] [ros2_supervisor.py-2]: sending signal 'SIGINT' to process[ros2_supervisor.py-2]
+1772893704.4794450 [ERROR] [ros2_supervisor.py-2]: process has died [pid 8007, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py --ros-args -r __ns:=/Ros2Supervisor -r /Ros2Supervisor/clock:=/clock'].
+1772893704.5794439 [INFO] [static_transform_publisher-4]: process has finished cleanly [pid 8012]
+1772893704.5814910 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 8009]
+1772893709.4707034 [ERROR] [webots_controller_TurtleBot3Burger-5]: process[webots_controller_TurtleBot3Burger-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1772893709.4713378 [INFO] [webots_controller_TurtleBot3Burger-5]: sending signal 'SIGTERM' to process[webots_controller_TurtleBot3Burger-5]
+1772893709.4749122 [ERROR] [webots_controller_TurtleBot3Burger-5]: process has died [pid 8015, exit code -15, cmd '/root/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller --robot-name=TurtleBot3Burger --protocol=ipc --port=1234 ros2 --ros-args -r /diffdrive_controller/cmd_vel_unstamped:=/cmd_vel -r /diffdrive_controller/odom:=/odom -p robot_description:=/root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/turtlebot_webots.urdf -p use_sim_time:=True -p set_robot_state_publisher:=True --params-file /root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/ros2control.yml'].

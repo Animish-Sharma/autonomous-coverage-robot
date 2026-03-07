@@ -1,0 +1,7 @@
+1772894245.8718662 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-20-07-25-871158-nixos-9364
+1772894245.8719769 [INFO] [launch]: Default logging verbosity is set to INFO
+1772894245.9076529 [INFO] [webots-1]: process started with pid [9365]
+1772894245.9077742 [INFO] [driver-2]: process started with pid [9367]
+1772894249.7322383 [ERROR] [webots-1]: process has died [pid 9365, exit code 139, cmd '/root/.ros/webotsR2025a/webots/webots --port=1234 /tmp/tmpnb7zczlk_world_with_URDF_robot.wbt --batch --mode=realtime'].
+1772894251.4408751 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772894251.4440136 [ERROR] [driver-2]: process has died [pid 9367, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args --params-file /tmp/launch_params_zawil54e'].

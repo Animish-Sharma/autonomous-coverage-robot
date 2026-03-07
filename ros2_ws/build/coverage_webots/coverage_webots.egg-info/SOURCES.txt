@@ -9,6 +9,7 @@ setup.py
 ../../build/coverage_webots/coverage_webots.egg-info/top_level.txt
 ../../build/coverage_webots/coverage_webots.egg-info/zip-safe
 coverage_webots/__init__.py
+coverage_webots/coverage_controller.py
 launch/project_launch.py
 resource/coverage_webots
 test/test_copyright.py

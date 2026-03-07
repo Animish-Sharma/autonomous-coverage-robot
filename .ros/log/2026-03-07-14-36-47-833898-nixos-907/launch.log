@@ -1,0 +1,6 @@
+1772874407.8355200 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-14-36-47-833898-nixos-907
+1772874407.8357956 [INFO] [launch]: Default logging verbosity is set to INFO
+1772874407.9091673 [INFO] [webots-1]: process started with pid [908]
+1772874407.9094343 [INFO] [driver-2]: process started with pid [910]
+1772874419.5353785 [ERROR] [driver-2]: process has died [pid 910, exit code -11, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args'].
+1772874480.5192900 [INFO] [webots-1]: process has finished cleanly [pid 908]

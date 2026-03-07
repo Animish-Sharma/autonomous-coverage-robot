@@ -1,0 +1,29 @@
+[INFO] [1772893368.078302275] [resource_manager]: Initialize hardware 'WebotsControl' 
+[INFO] [1772893368.078415694] [resource_manager]: Successful initialization of hardware 'WebotsControl'
+[INFO] [1772893368.078498664] [resource_manager]: 'configure' hardware 'WebotsControl' 
+[INFO] [1772893368.078506765] [resource_manager]: Successful 'configure' of hardware 'WebotsControl'
+[INFO] [1772893368.078513540] [resource_manager]: 'activate' hardware 'WebotsControl' 
+[INFO] [1772893368.078519266] [resource_manager]: Successful 'activate' of hardware 'WebotsControl'
+[INFO] [1772893368.198665428] [plugin_node_example]:   - properties: {'parameterExample': 'someValue'}
+[INFO] [1772893368.199043540] [plugin_node_example]:   - robot name: TurtleBot3Burger
+[INFO] [1772893368.199389944] [plugin_node_example]:   - basic timestep: 20
+[INFO] [1772893368.199727270] [plugin_node_example]:   - is supervisor? False
+[INFO] [1772893368.201035786] [TurtleBot3Burger]: Controller successfully connected to robot in Webots simulation.
+[INFO] [1772893368.408987592] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1772893368.453444942] [controller_manager]: Loading controller 'diffdrive_controller'
+[INFO] [1772893368.471814521] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1772893368.471911388] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1772893368.578069571] [controller_manager]: Configuring controller 'diffdrive_controller'
+[INFO] [1772893676.810819240] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1772893677.004395147] [TurtleBot3Burger]: Controller successfully disconnected from robot in Webots simulation.
+[INFO] [1772893677.004492157] [controller_manager]: Shutdown request received....
+[INFO] [1772893677.004530780] [controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1772893677.004561301] [controller_manager]: Deactivating controller 'joint_state_broadcaster'
+[INFO] [1772893677.004611378] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[INFO] [1772893677.004679474] [controller_manager]: Deactivating controller 'diffdrive_controller'
+[INFO] [1772893677.004720890] [controller_manager]: Shutting down controller 'diffdrive_controller'
+[INFO] [1772893677.004766357] [resource_manager]: 'deactivate' hardware 'WebotsControl' 
+[INFO] [1772893677.004775367] [resource_manager]: Successful 'deactivate' of hardware 'WebotsControl'
+[INFO] [1772893677.004781024] [resource_manager]: 'shutdown' hardware 'WebotsControl' 
+[INFO] [1772893677.004787659] [resource_manager]: Successful 'shutdown' of hardware 'WebotsControl'
+[INFO] [1772893677.004793456] [controller_manager]: Shutting down the controller manager.

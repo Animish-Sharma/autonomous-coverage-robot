@@ -95,6 +95,11 @@ TurtleBot3Burger {
   hidden angularVelocity_10 -8.021089466864066 -17.084446691214097 4.935462516197037e-14
   translation -2.0582264911112387 0.6215466059663572 -0.0004999235638177418
   rotation 0.004449883873013883 -0.007357707512018518 0.9999630306534758 1.0880785678616671
-  controller "webots_ros2_driver"
+  controller "extern"
   supervisor FALSE
+  extensionSlot [
+    Robot {
+      controller "webots_ros2_driver"
+    }
+  ]
 }

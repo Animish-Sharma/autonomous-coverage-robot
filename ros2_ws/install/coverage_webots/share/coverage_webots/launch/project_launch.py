@@ -1,16 +1,30 @@
 from launch import LaunchDescription
 from webots_ros2_driver.webots_launcher import WebotsLauncher
+from launch_ros.actions import Node
 import os
 
 def generate_launch_description():
 
-    package_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    world = os.path.join(package_dir, 'worlds', 'project_world.wbt')
+    world = os.path.join(
+        os.getenv('HOME'),
+        'ros2_ws/src/coverage_webots/worlds/project_world.wbt'
+    )
 
-    webots = WebotsLauncher(
-        world=world
+    webots = WebotsLauncher(world=world)
+
+    driver = Node(
+        package='webots_ros2_driver',
+        executable='driver',
+        output='screen',
+        additional_env={
+            'WEBOTS_ROBOT_NAME': 'TurtleBot3Burger'
+        },
+        parameters=[{
+            'robot_description': '<robot></robot>'
+        }]
     )
 
     return LaunchDescription([
-        webots
+        webots,
+        driver
     ])

@@ -1,0 +1,6 @@
+1772883533.8724885 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-17-08-53-870957-nixos-1388
+1772883533.8727243 [INFO] [launch]: Default logging verbosity is set to INFO
+1772883533.9436498 [INFO] [webots-1]: process started with pid [1389]
+1772883533.9439721 [INFO] [driver-2]: process started with pid [1391]
+1772883589.9863408 [ERROR] [driver-2]: process has died [pid 1391, exit code 1, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args --params-file /tmp/launch_params_sikg8myq'].
+1772883614.2923441 [INFO] [webots-1]: process has finished cleanly [pid 1389]

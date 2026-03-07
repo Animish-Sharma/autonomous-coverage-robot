@@ -1,0 +1,7 @@
+1772874818.3188016 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-14-43-38-317125-nixos-1098
+1772874818.3190520 [INFO] [launch]: Default logging verbosity is set to INFO
+1772874818.3919661 [INFO] [webots-1]: process started with pid [1099]
+1772874818.3922937 [INFO] [driver-2]: process started with pid [1101]
+1772874852.3191152 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772874852.3218689 [ERROR] [driver-2]: process has died [pid 1101, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args --params-file /tmp/launch_params_et68xo0w'].
+1772874852.5431752 [INFO] [webots-1]: process has finished cleanly [pid 1099]

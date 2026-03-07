@@ -1,0 +1,4 @@
+1772884987.1127598 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-17-33-07-111030-nixos-1757
+1772884987.1130385 [INFO] [launch]: Default logging verbosity is set to INFO
+1772884987.1177595 [INFO] [webots-1]: process started with pid [1758]
+1772885403.2541463 [INFO] [webots-1]: process has finished cleanly [pid 1758]
