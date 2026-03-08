@@ -61,7 +61,11 @@ This will start the Webots simulation and run the exploration controller.
 
 ## Results
 
+## Coverage Comparison
+
 Coverage statistics and evaluation plots used in the project are available in the **results/** directory.
+
+![Coverage Plot](results/coverage_plot.png)
 
 The final report describing the system design and experimental evaluation is included as **report.pdf**.
 
