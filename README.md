@@ -30,23 +30,30 @@ This repository includes:
 To run the exploration system locally, you need **ROS2** and **Webots** installed.
 
 ### 1. Clone the repository
+```
 git clone https://github.com/Animish-Sharma/autonomous-coverage-robot.git
-
 cd autonomous-coverage-robot
+```
 
 ### 2. Build the ROS2 workspace
+```
 cd ros2_ws
 colcon build
+```
 
 ### 3. Source the workspace
+```
 source install/setup.bash
+```
 or
+```
 source install/setup.zsh
-
+```
 
 ### 4. Launch the simulation
+```
 ros2 launch coverage_webots project_launch.py
-
+```
 
 This will start the Webots simulation and run the exploration controller.
 
