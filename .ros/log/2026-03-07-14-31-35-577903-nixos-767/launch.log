@@ -1,7 +1,0 @@
-1772874095.5788119 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-14-31-35-577903-nixos-767
-1772874095.5789299 [INFO] [launch]: Default logging verbosity is set to INFO
-1772874095.6179051 [INFO] [webots-1]: process started with pid [768]
-1772874095.6181457 [INFO] [driver-2]: process started with pid [770]
-1772874102.9545317 [ERROR] [driver-2]: process has died [pid 770, exit code -11, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args'].
-1772874257.1521509 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1772874257.3440506 [INFO] [webots-1]: process has finished cleanly [pid 768]

@@ -1,6 +1,0 @@
-1772873722.7369177 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-14-25-22-735291-nixos-530
-1772873722.7371678 [INFO] [launch]: Default logging verbosity is set to INFO
-1772873722.8095937 [INFO] [webots-1]: process started with pid [531]
-1772873722.8099895 [INFO] [driver-2]: process started with pid [533]
-1772873760.3754814 [INFO] [driver-2]: process has finished cleanly [pid 533]
-1772873760.4130211 [INFO] [webots-1]: process has finished cleanly [pid 531]

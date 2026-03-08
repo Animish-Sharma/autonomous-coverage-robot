@@ -1,6 +1,0 @@
-[INFO] [1772961373.498889160] [slam_toolbox]: Node using stack size 40000000
-[INFO] [1772961373.525541556] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
-[INFO] [1772961373.525985474] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
-[WARN] [1772961376.889275483] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
-[WARN] [1772961376.889389675] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (3.5 m)
-[INFO] [1772961502.757825532] [rclcpp]: signal_handler(SIGINT/SIGTERM)

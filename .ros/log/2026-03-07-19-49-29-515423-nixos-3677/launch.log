@@ -1,3 +1,0 @@
-1772893169.5161080 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-19-49-29-515423-nixos-3677
-1772893169.5162153 [INFO] [launch]: Default logging verbosity is set to INFO
-1772893169.5609491 [ERROR] [launch]: Caught exception in launch (see debug for traceback): [Errno 2] No such file or directory: '/root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds/~/ros2_ws/src/coverage_webots/worlds/project_world.wbt'

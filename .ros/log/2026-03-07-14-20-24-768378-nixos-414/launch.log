@@ -1,7 +1,0 @@
-1772873424.7699640 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-14-20-24-768378-nixos-414
-1772873424.7701948 [INFO] [launch]: Default logging verbosity is set to INFO
-1772873424.8398254 [INFO] [webots-1]: process started with pid [415]
-1772873424.8401170 [INFO] [driver-2]: process started with pid [417]
-1772873480.8716621 [ERROR] [driver-2]: process has died [pid 417, exit code 1, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver --ros-args --params-file /tmp/launch_params_enill4xj'].
-1772873599.0625868 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1772873599.2235465 [INFO] [webots-1]: process has finished cleanly [pid 415]

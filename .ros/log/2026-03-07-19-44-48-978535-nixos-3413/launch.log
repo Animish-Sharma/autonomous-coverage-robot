@@ -1,7 +1,0 @@
-1772892888.9792545 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-07-19-44-48-978535-nixos-3413
-1772892888.9793763 [INFO] [launch]: Default logging verbosity is set to INFO
-1772892889.0125892 [INFO] [webots-1]: process started with pid [3414]
-1772892889.0127316 [INFO] [driver-2]: process started with pid [3416]
-1772893053.3676717 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1772893053.4748983 [INFO] [webots-1]: process has finished cleanly [pid 3414]
-1772893053.4925470 [INFO] [driver-2]: process has finished cleanly [pid 3416]

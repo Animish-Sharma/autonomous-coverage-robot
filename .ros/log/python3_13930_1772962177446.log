@@ -1,3 +1,0 @@
-[INFO] [1772962177.824300864] [spawner_diffdrive_controller]: waiting for service /controller_manager/list_controllers to become available...
-[INFO] [1772962178.602679788] [spawner_diffdrive_controller]: [94mLoaded [1mdiffdrive_controller[0m
-[INFO] [1772962178.619374678] [spawner_diffdrive_controller]: [92mConfigured and activated [1mdiffdrive_controller[0m

@@ -1,3 +1,0 @@
-[WARN] [1772885874.139886304] [TurtleBot3Burger]: [33mPassing robot description as a string is deprecated. Provide the URDF or Xacro file path instead.[0m
-[WARN] [1772885874.144561984] [TurtleBot3Burger]: [33mThe direct declaration of the driver node in the launch file is deprecated. Please use the new WebotsController node instead.[0m
-[INFO] [1772885874.144607662] [TurtleBot3Burger]: Controller successfully connected to robot in Webots simulation.
