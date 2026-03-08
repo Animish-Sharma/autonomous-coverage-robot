@@ -12,3 +12,14 @@ __pycache__/
 
 # ROS
 .ros/
+
+.cache/
+.config/
+.local/
+.ros/
+.rviz2/
+.bash_history
+.bashrc
+.gitconfig
+.profile
+.DS_Store
