@@ -72,4 +72,4 @@ The final report describing the system design and experimental evaluation is inc
 - [Shriya Kansal](https://github.com/Shr1yaK) 
 - [Animish Sharma](https://github.com/Animish-Sharma) 
 
-IRPP – IIIT Hyderabad
+EC4.202: Introduction to Robotics: Perception and Planning – IIIT Hyderabad
