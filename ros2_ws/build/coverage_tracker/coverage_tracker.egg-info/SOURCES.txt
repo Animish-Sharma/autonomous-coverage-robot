@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/coverage_tracker/coverage_tracker.egg-info/PKG-INFO
+../../build/coverage_tracker/coverage_tracker.egg-info/SOURCES.txt
+../../build/coverage_tracker/coverage_tracker.egg-info/dependency_links.txt
+../../build/coverage_tracker/coverage_tracker.egg-info/entry_points.txt
+../../build/coverage_tracker/coverage_tracker.egg-info/requires.txt
+../../build/coverage_tracker/coverage_tracker.egg-info/top_level.txt
+../../build/coverage_tracker/coverage_tracker.egg-info/zip-safe
+coverage_tracker/__init__.py
+coverage_tracker/tracker_node.py
+resource/coverage_tracker
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

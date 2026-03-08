@@ -1,0 +1,32 @@
+[1.758s] Invoking command in '/root/ros2_ws/src/coverage_webots': PYTHONPATH=/root/ros2_ws/build/coverage_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_webots build --build-base /root/ros2_ws/build/coverage_webots/build install --record /root/ros2_ws/build/coverage_webots/install.log --single-version-externally-managed install_data
+[2.026s] running egg_info
+[2.026s] writing ../../build/coverage_webots/coverage_webots.egg-info/PKG-INFO
+[2.026s] writing dependency_links to ../../build/coverage_webots/coverage_webots.egg-info/dependency_links.txt
+[2.026s] writing entry points to ../../build/coverage_webots/coverage_webots.egg-info/entry_points.txt
+[2.027s] writing requirements to ../../build/coverage_webots/coverage_webots.egg-info/requires.txt
+[2.027s] writing top-level names to ../../build/coverage_webots/coverage_webots.egg-info/top_level.txt
+[2.027s] reading manifest file '../../build/coverage_webots/coverage_webots.egg-info/SOURCES.txt'
+[2.030s] writing manifest file '../../build/coverage_webots/coverage_webots.egg-info/SOURCES.txt'
+[2.030s] running build
+[2.030s] running build_py
+[2.030s] copying coverage_webots/coverage_controller.py -> /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots
+[2.030s] copying coverage_webots/c.py -> /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots
+[2.030s] running install
+[2.030s] running install_lib
+[2.031s] copying /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots/coverage_controller.py -> /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots
+[2.031s] copying /root/ros2_ws/build/coverage_webots/build/lib/coverage_webots/c.py -> /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots
+[2.033s] byte-compiling /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots/coverage_controller.py to coverage_controller.cpython-310.pyc
+[2.034s]   File "/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots/coverage_controller.py", line 239
+[2.034s]     main()r
+[2.035s]           ^
+[2.035s] SyntaxError: invalid syntax
+[2.035s] 
+[2.035s] byte-compiling /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots/c.py to c.cpython-310.pyc
+[2.036s] running install_data
+[2.036s] running install_egg_info
+[2.037s] removing '/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots-0.0.0-py3.10.egg-info' (and everything under it)
+[2.037s] Copying ../../build/coverage_webots/coverage_webots.egg-info to /root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages/coverage_webots-0.0.0-py3.10.egg-info
+[2.038s] running install_scripts
+[2.059s] Installing coverage_controller script to /root/ros2_ws/install/coverage_webots/lib/coverage_webots
+[2.060s] writing list of installed files to '/root/ros2_ws/build/coverage_webots/install.log'
+[2.128s] Invoked command in '/root/ros2_ws/src/coverage_webots' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_webots build --build-base /root/ros2_ws/build/coverage_webots/build install --record /root/ros2_ws/build/coverage_webots/install.log --single-version-externally-managed install_data

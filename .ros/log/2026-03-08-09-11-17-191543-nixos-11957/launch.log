@@ -1,0 +1,13 @@
+1772941277.1922853 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-08-09-11-17-191543-nixos-11957
+1772941277.1924007 [INFO] [launch]: Default logging verbosity is set to INFO
+1772941277.2436006 [INFO] [webots-1]: process started with pid [11958]
+1772941277.2437603 [INFO] [ros2_supervisor.py-2]: process started with pid [11960]
+1772941277.2438967 [INFO] [robot_state_publisher-3]: process started with pid [11962]
+1772941277.2439868 [INFO] [static_transform_publisher-4]: process started with pid [11964]
+1772941277.2440615 [INFO] [webots_controller_TurtleBot3Burger-5]: process started with pid [11968]
+1772941345.2406642 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772941345.2484257 [ERROR] [ros2_supervisor.py-2]: process has died [pid 11960, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py --ros-args -r __ns:=/Ros2Supervisor -r /Ros2Supervisor/clock:=/clock'].
+1772941345.2559371 [ERROR] [webots_controller_TurtleBot3Burger-5]: process has died [pid 11968, exit code 254, cmd '/root/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller --robot-name=TurtleBot3Burger --protocol=ipc --port=1234 ros2 --ros-args -r /diffdrive_controller/cmd_vel_unstamped:=/cmd_vel -r /diffdrive_controller/odom:=/odom -p robot_description:=/root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/turtlebot_webots.urdf -p use_sim_time:=True -p set_robot_state_publisher:=True --params-file /root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/ros2control.yml'].
+1772941345.3483326 [INFO] [static_transform_publisher-4]: process has finished cleanly [pid 11964]
+1772941345.3485513 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 11962]
+1772941345.3820152 [INFO] [webots-1]: process has finished cleanly [pid 11958]

@@ -1,0 +1,24 @@
+1772961505.5511260 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-08-14-48-25-550272-nixos-13184
+1772961505.5512507 [INFO] [launch]: Default logging verbosity is set to INFO
+1772961505.5994811 [INFO] [webots-1]: process started with pid [13185]
+1772961505.5996397 [INFO] [ros2_supervisor.py-2]: process started with pid [13187]
+1772961505.5997324 [INFO] [robot_state_publisher-3]: process started with pid [13189]
+1772961505.5998061 [INFO] [static_transform_publisher-4]: process started with pid [13191]
+1772961505.5998671 [INFO] [webots_controller_TurtleBot3Burger-5]: process started with pid [13194]
+1772961514.3425674 [INFO] [spawner-6]: process started with pid [13330]
+1772961514.3427200 [INFO] [spawner-7]: process started with pid [13332]
+1772961515.0495205 [INFO] [spawner-7]: process has finished cleanly [pid 13332]
+1772961515.1902876 [INFO] [spawner-6]: process has finished cleanly [pid 13330]
+1772961665.1918862 [ERROR] [ros2_supervisor.py-2]: process has died [pid 13187, exit code 1, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py --ros-args -r __ns:=/Ros2Supervisor -r /Ros2Supervisor/clock:=/clock'].
+1772961665.1930754 [INFO] [ros2_supervisor.py-2]: process started with pid [13384]
+1772961665.2170355 [INFO] [webots_controller_TurtleBot3Burger-5]: process has finished cleanly [pid 13194]
+1772961665.2181578 [INFO] [webots_controller_TurtleBot3Burger-5]: process started with pid [13386]
+1772961665.2217464 [INFO] [webots-1]: process has finished cleanly [pid 13185]
+1772961665.2236483 [INFO] [webots_controller_TurtleBot3Burger-5]: sending signal 'SIGINT' to process[webots_controller_TurtleBot3Burger-5]
+1772961665.2241166 [INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+1772961665.2247727 [INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+1772961665.2250144 [ERROR] [webots_controller_TurtleBot3Burger-5]: process has died [pid 13386, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller --robot-name=TurtleBot3Burger --protocol=ipc --port=1234 ros2 --ros-args -r /diffdrive_controller/cmd_vel_unstamped:=/cmd_vel -r /diffdrive_controller/odom:=/odom -p robot_description:=/root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/turtlebot_webots.urdf -p use_sim_time:=True -p set_robot_state_publisher:=True --params-file /root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/ros2control.yml'].
+1772961665.2254329 [INFO] [ros2_supervisor.py-2]: sending signal 'SIGINT' to process[ros2_supervisor.py-2]
+1772961665.2381997 [ERROR] [ros2_supervisor.py-2]: process has died [pid 13384, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py --ros-args -r __ns:=/Ros2Supervisor -r /Ros2Supervisor/clock:=/clock'].
+1772961665.3318167 [INFO] [static_transform_publisher-4]: process has finished cleanly [pid 13191]
+1772961665.3325465 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 13189]

@@ -1,0 +1,18 @@
+1772940933.1610811 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-08-09-05-33-160344-nixos-11663
+1772940933.1611898 [INFO] [launch]: Default logging verbosity is set to INFO
+1772940933.2084079 [INFO] [webots-1]: process started with pid [11664]
+1772940933.2085509 [INFO] [ros2_supervisor.py-2]: process started with pid [11666]
+1772940933.2086163 [INFO] [robot_state_publisher-3]: process started with pid [11668]
+1772940933.2086682 [INFO] [static_transform_publisher-4]: process started with pid [11670]
+1772940933.2087147 [INFO] [webots_controller_TurtleBot3Burger-5]: process started with pid [11674]
+1772940940.6172664 [INFO] [spawner-6]: process started with pid [11809]
+1772940940.6174233 [INFO] [spawner-7]: process started with pid [11811]
+1772940941.2780137 [INFO] [spawner-7]: process has finished cleanly [pid 11811]
+1772940941.4008851 [INFO] [spawner-6]: process has finished cleanly [pid 11809]
+1772941268.3381870 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772941268.3449039 [ERROR] [ros2_supervisor.py-2]: process has died [pid 11666, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py --ros-args -r __ns:=/Ros2Supervisor -r /Ros2Supervisor/clock:=/clock'].
+1772941268.4471788 [INFO] [static_transform_publisher-4]: process has finished cleanly [pid 11670]
+1772941268.4473672 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 11668]
+1772941270.9662101 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1772941270.9670753 [ERROR] [webots-1]: process has died [pid 11664, exit code -2, cmd '/root/.ros/webotsR2025a/webots/webots --port=1234 /tmp/tmplemdiky__world_with_URDF_robot.wbt --batch --mode=realtime'].
+1772941271.0964534 [ERROR] [webots_controller_TurtleBot3Burger-5]: process has died [pid 11674, exit code 1, cmd '/root/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller --robot-name=TurtleBot3Burger --protocol=ipc --port=1234 ros2 --ros-args -r /diffdrive_controller/cmd_vel_unstamped:=/cmd_vel -r /diffdrive_controller/odom:=/odom -p robot_description:=/root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/turtlebot_webots.urdf -p use_sim_time:=True -p set_robot_state_publisher:=True --params-file /root/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource/ros2control.yml'].

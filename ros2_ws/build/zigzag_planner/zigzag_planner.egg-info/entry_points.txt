@@ -1,0 +1,3 @@
+[console_scripts]
+zigzag_node = zigzag_planner.zigzag_node:main
+

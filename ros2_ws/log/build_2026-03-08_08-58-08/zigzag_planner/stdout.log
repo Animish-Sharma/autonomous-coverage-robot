@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/zigzag_planner/zigzag_planner.egg-info
+writing ../../build/zigzag_planner/zigzag_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/zigzag_planner/zigzag_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/zigzag_planner/zigzag_planner.egg-info/entry_points.txt
+writing requirements to ../../build/zigzag_planner/zigzag_planner.egg-info/requires.txt
+writing top-level names to ../../build/zigzag_planner/zigzag_planner.egg-info/top_level.txt
+writing manifest file '../../build/zigzag_planner/zigzag_planner.egg-info/SOURCES.txt'
+reading manifest file '../../build/zigzag_planner/zigzag_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/zigzag_planner/zigzag_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/zigzag_planner/build
+creating /root/ros2_ws/build/zigzag_planner/build/lib
+creating /root/ros2_ws/build/zigzag_planner/build/lib/zigzag_planner
+copying zigzag_planner/zigzag_node.py -> /root/ros2_ws/build/zigzag_planner/build/lib/zigzag_planner
+copying zigzag_planner/__init__.py -> /root/ros2_ws/build/zigzag_planner/build/lib/zigzag_planner
+running install
+running install_lib
+creating /root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages/zigzag_planner
+copying /root/ros2_ws/build/zigzag_planner/build/lib/zigzag_planner/zigzag_node.py -> /root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages/zigzag_planner
+copying /root/ros2_ws/build/zigzag_planner/build/lib/zigzag_planner/__init__.py -> /root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages/zigzag_planner
+byte-compiling /root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages/zigzag_planner/zigzag_node.py to zigzag_node.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages/zigzag_planner/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/zigzag_planner/share/ament_index
+creating /root/ros2_ws/install/zigzag_planner/share/ament_index/resource_index
+creating /root/ros2_ws/install/zigzag_planner/share/ament_index/resource_index/packages
+copying resource/zigzag_planner -> /root/ros2_ws/install/zigzag_planner/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/zigzag_planner/share/zigzag_planner
+running install_egg_info
+Copying ../../build/zigzag_planner/zigzag_planner.egg-info to /root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages/zigzag_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing zigzag_node script to /root/ros2_ws/install/zigzag_planner/lib/zigzag_planner
+writing list of installed files to '/root/ros2_ws/build/zigzag_planner/install.log'

@@ -1,0 +1,18 @@
+[INFO] [1772940940.483835890] [resource_manager]: Initialize hardware 'WebotsControl' 
+[INFO] [1772940940.483947767] [resource_manager]: Successful initialization of hardware 'WebotsControl'
+[INFO] [1772940940.484036948] [resource_manager]: 'configure' hardware 'WebotsControl' 
+[INFO] [1772940940.484046026] [resource_manager]: Successful 'configure' of hardware 'WebotsControl'
+[INFO] [1772940940.484052801] [resource_manager]: 'activate' hardware 'WebotsControl' 
+[INFO] [1772940940.484059365] [resource_manager]: Successful 'activate' of hardware 'WebotsControl'
+[INFO] [1772940940.611828811] [plugin_node_example]:   - properties: {'parameterExample': 'someValue'}
+[INFO] [1772940940.612203829] [plugin_node_example]:   - robot name: TurtleBot3Burger
+[INFO] [1772940940.612586949] [plugin_node_example]:   - basic timestep: 20
+[INFO] [1772940940.612925234] [plugin_node_example]:   - is supervisor? False
+[INFO] [1772940940.614253651] [TurtleBot3Burger]: Controller successfully connected to robot in Webots simulation.
+[INFO] [1772940940.832836665] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1772940940.872162283] [controller_manager]: Loading controller 'diffdrive_controller'
+[INFO] [1772940940.890510606] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1772940940.890616547] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1772940940.997576026] [controller_manager]: Configuring controller 'diffdrive_controller'
+[INFO] [1772941268.338005844] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1772941270.965943884] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,3 @@
+[console_scripts]
+coverage_tracker = coverage_tracker.tracker_node:main
+

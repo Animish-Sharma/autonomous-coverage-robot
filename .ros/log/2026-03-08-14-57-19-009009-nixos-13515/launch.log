@@ -1,0 +1,17 @@
+1772962039.0097091 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-08-14-57-19-009009-nixos-13515
+1772962039.0098166 [INFO] [launch]: Default logging verbosity is set to INFO
+1772962039.0569091 [INFO] [webots-1]: process started with pid [13516]
+1772962039.0570667 [INFO] [ros2_supervisor.py-2]: process started with pid [13518]
+1772962039.0571573 [INFO] [robot_state_publisher-3]: process started with pid [13520]
+1772962039.0572300 [INFO] [static_transform_publisher-4]: process started with pid [13523]
+1772962039.0573039 [INFO] [webots_controller_TurtleBot3Burger-5]: process started with pid [13526]
+1772962046.6918092 [INFO] [spawner-6]: process started with pid [13661]
+1772962046.6919587 [INFO] [spawner-7]: process started with pid [13663]
+1772962047.2164545 [INFO] [spawner-7]: process has finished cleanly [pid 13663]
+1772962047.7268422 [INFO] [spawner-6]: process has finished cleanly [pid 13661]
+1772962145.2374382 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772962145.2489605 [ERROR] [ros2_supervisor.py-2]: process has died [pid 13518, exit code -2, cmd '/root/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py --ros-args -r __ns:=/Ros2Supervisor -r /Ros2Supervisor/clock:=/clock'].
+1772962145.3531721 [INFO] [static_transform_publisher-4]: process has finished cleanly [pid 13523]
+1772962145.3539209 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 13520]
+1772962145.4673374 [INFO] [webots-1]: process has finished cleanly [pid 13516]
+1772962145.5001087 [INFO] [webots_controller_TurtleBot3Burger-5]: process has finished cleanly [pid 13526]

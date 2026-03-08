@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/coverage_tracker/coverage_tracker.egg-info
+writing ../../build/coverage_tracker/coverage_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/coverage_tracker/coverage_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/coverage_tracker/coverage_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/coverage_tracker/coverage_tracker.egg-info/requires.txt
+writing top-level names to ../../build/coverage_tracker/coverage_tracker.egg-info/top_level.txt
+writing manifest file '../../build/coverage_tracker/coverage_tracker.egg-info/SOURCES.txt'
+reading manifest file '../../build/coverage_tracker/coverage_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/coverage_tracker/coverage_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/coverage_tracker/build
+creating /root/ros2_ws/build/coverage_tracker/build/lib
+creating /root/ros2_ws/build/coverage_tracker/build/lib/coverage_tracker
+copying coverage_tracker/tracker_node.py -> /root/ros2_ws/build/coverage_tracker/build/lib/coverage_tracker
+copying coverage_tracker/__init__.py -> /root/ros2_ws/build/coverage_tracker/build/lib/coverage_tracker
+running install
+running install_lib
+creating /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker
+copying /root/ros2_ws/build/coverage_tracker/build/lib/coverage_tracker/tracker_node.py -> /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker
+copying /root/ros2_ws/build/coverage_tracker/build/lib/coverage_tracker/__init__.py -> /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker
+byte-compiling /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker/tracker_node.py to tracker_node.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/coverage_tracker/share/ament_index
+creating /root/ros2_ws/install/coverage_tracker/share/ament_index/resource_index
+creating /root/ros2_ws/install/coverage_tracker/share/ament_index/resource_index/packages
+copying resource/coverage_tracker -> /root/ros2_ws/install/coverage_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/coverage_tracker/share/coverage_tracker
+running install_egg_info
+Copying ../../build/coverage_tracker/coverage_tracker.egg-info to /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing coverage_tracker script to /root/ros2_ws/install/coverage_tracker/lib/coverage_tracker
+writing list of installed files to '/root/ros2_ws/build/coverage_tracker/install.log'

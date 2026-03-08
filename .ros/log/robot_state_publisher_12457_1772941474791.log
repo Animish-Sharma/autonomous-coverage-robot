@@ -1,0 +1,18 @@
+[INFO] [1772941474.816557715] [robot_state_publisher]: got segment 
+[INFO] [1772941482.947002321] [robot_state_publisher]: got segment LDS-01
+[INFO] [1772941482.947043178] [robot_state_publisher]: got segment accelerometer
+[INFO] [1772941482.947054632] [robot_state_publisher]: got segment base_link
+[INFO] [1772941482.947064549] [robot_state_publisher]: got segment compass
+[INFO] [1772941482.947072232] [robot_state_publisher]: got segment gps
+[INFO] [1772941482.947081381] [robot_state_publisher]: got segment gyro
+[INFO] [1772941482.947091717] [robot_state_publisher]: got segment imu_link
+[INFO] [1772941482.947100797] [robot_state_publisher]: got segment inertial_unit
+[INFO] [1772941482.947110924] [robot_state_publisher]: got segment left wheel
+[INFO] [1772941482.947120003] [robot_state_publisher]: got segment lower
+[INFO] [1772941482.947130339] [robot_state_publisher]: got segment right wheel
+[INFO] [1772941482.947140047] [robot_state_publisher]: got segment screw0
+[INFO] [1772941482.947149964] [robot_state_publisher]: got segment screw1
+[INFO] [1772941482.947158974] [robot_state_publisher]: got segment screw2
+[INFO] [1772941482.947168612] [robot_state_publisher]: got segment screw3
+[INFO] [1772941482.947179088] [robot_state_publisher]: got segment solid
+[INFO] [1772941589.058321568] [rclcpp]: signal_handler(SIGINT/SIGTERM)

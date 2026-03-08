@@ -1,0 +1,3 @@
+[console_scripts]
+frontier_node = coverage_planner.frontier_node:main
+

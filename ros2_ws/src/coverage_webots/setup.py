@@ -28,6 +28,7 @@ setup(
     entry_points={
     'console_scripts': [
         'coverage_controller = coverage_webots.coverage_controller:main',
+        'random_controller = coverage_webots.random_controller:main',
         ],
     },
 )

@@ -1,0 +1,21 @@
+[1.844s] Invoking command in '/root/ros2_ws/src/coverage_tracker': PYTHONPATH=/root/ros2_ws/build/coverage_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_tracker build --build-base /root/ros2_ws/build/coverage_tracker/build install --record /root/ros2_ws/build/coverage_tracker/install.log --single-version-externally-managed install_data
+[2.124s] running egg_info
+[2.125s] writing ../../build/coverage_tracker/coverage_tracker.egg-info/PKG-INFO
+[2.125s] writing dependency_links to ../../build/coverage_tracker/coverage_tracker.egg-info/dependency_links.txt
+[2.126s] writing entry points to ../../build/coverage_tracker/coverage_tracker.egg-info/entry_points.txt
+[2.126s] writing requirements to ../../build/coverage_tracker/coverage_tracker.egg-info/requires.txt
+[2.127s] writing top-level names to ../../build/coverage_tracker/coverage_tracker.egg-info/top_level.txt
+[2.127s] reading manifest file '../../build/coverage_tracker/coverage_tracker.egg-info/SOURCES.txt'
+[2.128s] writing manifest file '../../build/coverage_tracker/coverage_tracker.egg-info/SOURCES.txt'
+[2.128s] running build
+[2.128s] running build_py
+[2.128s] running install
+[2.128s] running install_lib
+[2.130s] running install_data
+[2.130s] running install_egg_info
+[2.133s] removing '/root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[2.133s] Copying ../../build/coverage_tracker/coverage_tracker.egg-info to /root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages/coverage_tracker-0.0.0-py3.10.egg-info
+[2.134s] running install_scripts
+[2.161s] Installing coverage_tracker script to /root/ros2_ws/install/coverage_tracker/lib/coverage_tracker
+[2.161s] writing list of installed files to '/root/ros2_ws/build/coverage_tracker/install.log'
+[2.250s] Invoked command in '/root/ros2_ws/src/coverage_tracker' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_tracker build --build-base /root/ros2_ws/build/coverage_tracker/build install --record /root/ros2_ws/build/coverage_tracker/install.log --single-version-externally-managed install_data

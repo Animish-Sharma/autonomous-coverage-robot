@@ -1,0 +1,3 @@
+[console_scripts]
+metrics_node = coverage_metrics.metrics_node:main
+

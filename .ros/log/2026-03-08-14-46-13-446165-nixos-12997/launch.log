@@ -1,0 +1,5 @@
+1772961373.4469016 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-08-14-46-13-446165-nixos-12997
+1772961373.4470031 [INFO] [launch]: Default logging verbosity is set to INFO
+1772961373.4714212 [INFO] [async_slam_toolbox_node-1]: process started with pid [12998]
+1772961502.7580619 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772961502.8719122 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 12998]

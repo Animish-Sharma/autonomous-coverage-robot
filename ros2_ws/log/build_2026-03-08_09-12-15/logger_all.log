@@ -1,0 +1,329 @@
+[0.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f18dad519f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f18dad51510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f18dad51510>>)
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.220s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_ws'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_metrics) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/coverage_metrics' with type 'ros.ament_python' and name 'coverage_metrics'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_planner) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/coverage_planner' with type 'ros.ament_python' and name 'coverage_planner'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_tracker) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/coverage_tracker' with type 'ros.ament_python' and name 'coverage_tracker'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/coverage_webots) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/coverage_webots' with type 'ros.ament_python' and name 'coverage_webots'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/zigzag_planner) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zigzag_planner' with type 'ros.ament_python' and name 'zigzag_planner'
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /root/ros2_ws/install
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/humble
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_metrics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'coverage_metrics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/coverage_metrics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/coverage_metrics', 'merge_install': False, 'path': '/root/ros2_ws/src/coverage_metrics', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'coverage_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'coverage_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/coverage_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/coverage_planner', 'merge_install': False, 'path': '/root/ros2_ws/src/coverage_planner', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'coverage_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/coverage_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/coverage_tracker', 'merge_install': False, 'path': '/root/ros2_ws/src/coverage_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'coverage_webots' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'coverage_webots' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/coverage_webots', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/coverage_webots', 'merge_install': False, 'path': '/root/ros2_ws/src/coverage_webots', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zigzag_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'zigzag_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/zigzag_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/zigzag_planner', 'merge_install': False, 'path': '/root/ros2_ws/src/zigzag_planner', 'symlink_install': False, 'test_result_base': None}
+[0.300s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.301s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/coverage_metrics' with build type 'ament_python'
+[0.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_metrics', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/hook/ament_prefix_path.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/hook/ament_prefix_path.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/coverage_planner' with build type 'ament_python'
+[0.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_planner', 'ament_prefix_path')
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_planner/share/coverage_planner/hook/ament_prefix_path.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_planner/share/coverage_planner/hook/ament_prefix_path.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_planner/share/coverage_planner/hook/ament_prefix_path.sh'
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/coverage_tracker' with build type 'ament_python'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_tracker', 'ament_prefix_path')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/hook/ament_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/hook/ament_prefix_path.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/hook/ament_prefix_path.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/coverage_webots' with build type 'ament_python'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_webots', 'ament_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_webots/share/coverage_webots/hook/ament_prefix_path.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_webots/share/coverage_webots/hook/ament_prefix_path.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_webots/share/coverage_webots/hook/ament_prefix_path.sh'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/zigzag_planner' with build type 'ament_python'
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('zigzag_planner', 'ament_prefix_path')
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/hook/ament_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/hook/ament_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/hook/ament_prefix_path.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/coverage_metrics'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.755s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/coverage_planner'
+[0.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.975s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/coverage_tracker'
+[0.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/coverage_webots'
+[1.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.405s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/zigzag_planner'
+[1.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/coverage_metrics': PYTHONPATH=/root/ros2_ws/build/coverage_metrics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_metrics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_metrics build --build-base /root/ros2_ws/build/coverage_metrics/build install --record /root/ros2_ws/build/coverage_metrics/install.log --single-version-externally-managed install_data
+[1.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/coverage_webots': PYTHONPATH=/root/ros2_ws/build/coverage_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_webots build --build-base /root/ros2_ws/build/coverage_webots/build install --record /root/ros2_ws/build/coverage_webots/install.log --single-version-externally-managed install_data
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/coverage_tracker': PYTHONPATH=/root/ros2_ws/build/coverage_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_tracker build --build-base /root/ros2_ws/build/coverage_tracker/build install --record /root/ros2_ws/build/coverage_tracker/install.log --single-version-externally-managed install_data
+[1.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/zigzag_planner': PYTHONPATH=/root/ros2_ws/build/zigzag_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zigzag_planner build --build-base /root/ros2_ws/build/zigzag_planner/build install --record /root/ros2_ws/build/zigzag_planner/install.log --single-version-externally-managed install_data
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/coverage_planner': PYTHONPATH=/root/ros2_ws/build/coverage_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_planner build --build-base /root/ros2_ws/build/coverage_planner/build install --record /root/ros2_ws/build/coverage_planner/install.log --single-version-externally-managed install_data
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/coverage_webots' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_webots build --build-base /root/ros2_ws/build/coverage_webots/build install --record /root/ros2_ws/build/coverage_webots/install.log --single-version-externally-managed install_data
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots' for CMake module files
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots' for CMake config files
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots/lib'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots/bin'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots/lib/pkgconfig/coverage_webots.pc'
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots/lib/python3.10/site-packages'
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_webots', 'pythonpath')
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_webots/share/coverage_webots/hook/pythonpath.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_webots/share/coverage_webots/hook/pythonpath.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_webots/share/coverage_webots/hook/pythonpath.sh'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_webots/bin'
+[2.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coverage_webots)
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_webots/share/coverage_webots/package.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/coverage_webots/share/coverage_webots/package.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_webots/share/coverage_webots/package.sh'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_webots/share/coverage_webots/package.bash'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_webots/share/coverage_webots/package.zsh'
+[2.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/coverage_webots/share/colcon-core/packages/coverage_webots)
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics' for CMake module files
+[2.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/coverage_metrics' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_metrics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_metrics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_metrics build --build-base /root/ros2_ws/build/coverage_metrics/build install --record /root/ros2_ws/build/coverage_metrics/install.log --single-version-externally-managed install_data
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics' for CMake config files
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics/lib'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics/bin'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics/lib/pkgconfig/coverage_metrics.pc'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics/lib/python3.10/site-packages'
+[2.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_metrics', 'pythonpath')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/hook/pythonpath.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/hook/pythonpath.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/hook/pythonpath.sh'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_metrics/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coverage_metrics)
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/package.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/package.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/package.sh'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/package.bash'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_metrics/share/coverage_metrics/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/coverage_metrics/share/colcon-core/packages/coverage_metrics)
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker' for CMake module files
+[2.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/coverage_tracker' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_tracker build --build-base /root/ros2_ws/build/coverage_tracker/build install --record /root/ros2_ws/build/coverage_tracker/install.log --single-version-externally-managed install_data
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker' for CMake config files
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker/lib'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker/bin'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker/lib/pkgconfig/coverage_tracker.pc'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker/lib/python3.10/site-packages'
+[2.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_tracker', 'pythonpath')
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/hook/pythonpath.ps1'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/hook/pythonpath.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/hook/pythonpath.sh'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_tracker/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coverage_tracker)
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/package.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/package.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/package.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/package.bash'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_tracker/share/coverage_tracker/package.zsh'
+[2.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/coverage_tracker/share/colcon-core/packages/coverage_tracker)
+[2.099s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner' for CMake module files
+[2.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/coverage_planner' returned '0': PYTHONPATH=/root/ros2_ws/build/coverage_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/coverage_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coverage_planner build --build-base /root/ros2_ws/build/coverage_planner/build install --record /root/ros2_ws/build/coverage_planner/install.log --single-version-externally-managed install_data
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner' for CMake config files
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner/lib'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner/bin'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner/lib/pkgconfig/coverage_planner.pc'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner/lib/python3.10/site-packages'
+[2.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('coverage_planner', 'pythonpath')
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_planner/share/coverage_planner/hook/pythonpath.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/coverage_planner/share/coverage_planner/hook/pythonpath.dsv'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/coverage_planner/share/coverage_planner/hook/pythonpath.sh'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/coverage_planner/bin'
+[2.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coverage_planner)
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_planner/share/coverage_planner/package.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/coverage_planner/share/coverage_planner/package.dsv'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_planner/share/coverage_planner/package.sh'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_planner/share/coverage_planner/package.bash'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/coverage_planner/share/coverage_planner/package.zsh'
+[2.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/coverage_planner/share/colcon-core/packages/coverage_planner)
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner' for CMake module files
+[2.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/zigzag_planner' returned '0': PYTHONPATH=/root/ros2_ws/build/zigzag_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zigzag_planner build --build-base /root/ros2_ws/build/zigzag_planner/build install --record /root/ros2_ws/build/zigzag_planner/install.log --single-version-externally-managed install_data
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner' for CMake config files
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner/lib'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner/bin'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner/lib/pkgconfig/zigzag_planner.pc'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner/lib/python3.10/site-packages'
+[2.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('zigzag_planner', 'pythonpath')
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/hook/pythonpath.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/hook/pythonpath.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/hook/pythonpath.sh'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/zigzag_planner/bin'
+[2.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zigzag_planner)
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/package.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/package.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/package.sh'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/package.bash'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/zigzag_planner/share/zigzag_planner/package.zsh'
+[2.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/zigzag_planner/share/colcon-core/packages/zigzag_planner)
+[2.111s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.112s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.118s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.121s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.121s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.122s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_ps1.py'
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.sh'
+[2.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_sh.py'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.bash'
+[2.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.bash'
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.zsh'
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.zsh'
