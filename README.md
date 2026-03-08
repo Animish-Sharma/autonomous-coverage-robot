@@ -69,7 +69,7 @@ The final report describing the system design and experimental evaluation is inc
 
 ## Authors
 
-[Shriya Kansal](https://github.com/Shr1yaK) 
-[Animish Sharma](https://github.com/Animish-Sharma) 
+- [Shriya Kansal](https://github.com/Shr1yaK) 
+- [Animish Sharma](https://github.com/Animish-Sharma) 
 
 IRPP – IIIT Hyderabad
