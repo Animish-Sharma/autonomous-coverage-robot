@@ -69,7 +69,7 @@ The final report describing the system design and experimental evaluation is inc
 
 ## Authors
 
-- [Shriya Kansal](https://github.com/Shr1yaK) 
-- [Animish Sharma](https://github.com/Animish-Sharma) 
+- **Shriya Kansal** – [@Shr1yaK](https://github.com/Shr1yaK)
+- **Animish Sharma** – [@Animish-Sharma](https://github.com/Animish-Sharma)
 
 EC4.202: Introduction to Robotics: Perception and Planning – IIIT Hyderabad
